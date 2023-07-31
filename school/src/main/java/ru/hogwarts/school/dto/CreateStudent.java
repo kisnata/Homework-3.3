@@ -4,7 +4,6 @@ public class CreateStudent {
 
     private String name;
     private int age;
-
     public CreateStudent(String name, int age) {
         this.name = name;
         this.age = age;

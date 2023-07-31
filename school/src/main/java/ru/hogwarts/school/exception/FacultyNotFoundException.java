@@ -7,7 +7,6 @@ public class FacultyNotFoundException extends RuntimeException {
 
         this.id = id;
     }
-
     @Override
     public String getMessage() {
         return "Факультет с id = " + id + " не найден!";

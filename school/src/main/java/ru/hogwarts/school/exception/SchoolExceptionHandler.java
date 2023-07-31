@@ -9,6 +9,5 @@ public class SchoolExceptionHandler {
     @ExceptionHandler({FacultyNotFoundException.class, StudentNotFoundException.class})
     public ResponseEntity<?> handleNotFound(RuntimeException e) {
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
-
     }
 }

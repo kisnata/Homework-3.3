@@ -36,7 +36,6 @@ public class FacultyService {
         })
         .orElseThrow(() -> new FacultyNotFoundException(id));
     }
-
     public FacultyDtoOut delete(long id) {
         Faculty faculty = facultyRepository.findById(id)
         .orElseThrow(() -> new FacultyNotFoundException(id));

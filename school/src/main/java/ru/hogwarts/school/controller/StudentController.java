@@ -6,7 +6,6 @@ import ru.hogwarts.school.dto.StudentDtoOut;
 import ru.hogwarts.school.service.StudentService;
 
 import java.util.List;
-
 @RestController
 @RequestMapping("/students")
 public class StudentController {

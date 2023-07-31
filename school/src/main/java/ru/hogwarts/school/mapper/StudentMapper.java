@@ -21,7 +21,6 @@ public class StudentMapper {
         this.facultyMapper = facultyMapper;
         this.facultyRepository = facultyRepository;
     }
-
     public StudentDtoOut toDto(Student student) {
         StudentDtoOut studentDtoOut = new StudentDtoOut();
         studentDtoOut.setId(student.getId());

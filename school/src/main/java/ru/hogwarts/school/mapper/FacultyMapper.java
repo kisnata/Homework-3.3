@@ -4,7 +4,6 @@ import org.springframework.stereotype.Component;
 import ru.hogwarts.school.dto.FacultyDtoIn;
 import ru.hogwarts.school.dto.FacultyDtoOut;
 import ru.hogwarts.school.entity.Faculty;
-
 @Component
 public class FacultyMapper {
 

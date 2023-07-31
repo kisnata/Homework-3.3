@@ -5,7 +5,6 @@ public class StudentNotFoundException extends RuntimeException {
     public StudentNotFoundException(long id) {
         this.id = id;
     }
-
     @Override
     public String getMessage() {
         return "Студетн с id = " + id + " не найден!";

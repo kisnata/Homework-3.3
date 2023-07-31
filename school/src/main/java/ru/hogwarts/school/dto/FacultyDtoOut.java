@@ -10,7 +10,6 @@ public class FacultyDtoOut {
         this.name = name;
         this.color = color;
     }
-
     public FacultyDtoOut() {
     }
 
